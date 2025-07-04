@@ -1,4 +1,4 @@
-# Proyecto-ia-Titanic
+# Proyecto-ia-eSports
 
 Cada vez que hagas cambios en cualquier archivo (README.md, Proyecto.py, etc.):
 # 1. Guardar los cambios:
