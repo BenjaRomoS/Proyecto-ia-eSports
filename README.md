@@ -24,3 +24,5 @@ Ejemplo: "Agrego función para preprocesar datos en Proyecto.py"
 # 5. Subir los cambios al repositorio remoto en GitHub
 Ejecuta:
 git push origin main
+
+# Recuerda que no estas solo en el proyecto, avisa cuando cambies el nombre del repositorio
