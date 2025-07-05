@@ -38,14 +38,14 @@ Documentación: Todo el proceso, código y resultados serán documentados en el 
 
 
 
-# Agregar los archivos modificados al área de preparación
-git add .
-
-# Luego haces el commit con un mensaje.
-git commit -m "Mensaje descriptivo"
-
-# Finalmente haces push para subir los cambios.
-git push origin main
+# Justificación del Modelo
+La elección de los modelos responde a una estrategia por etapas para resolver el problema de predicción de ganancias.
+Regresión Lineal:
+Pertinencia y Ventajas: Lo elegimos como punto de partida por su simplicidad y alta interpretabilidad, permitiendo establecer una línea base de rendimiento y entender las relaciones lineales entre las características (ej. cómo influye un género de juego específico en las ganancias). Es computacionalmente eficiente y sus resultados son fáciles de explicar.
+Limitaciones: Su principal debilidad es la suposición de que la relación entre las características y las ganancias es lineal, lo cual es poco probable en un dominio tan complejo como los eSports y además es sensible a los valores atípicos, que son comunes en datos de ganancias.
+Random Forest Regressor:
+Pertinencia y Ventajas: Lo seleccionamos como un modelo más avanzado y robusto. Al ser un modelo de conjunto (ensemble) que puede capturar relaciones complejas y no lineales entre las variables. Es menos susceptible a los valores atípicos en comparación con la regresión lineal y tiende a ofrecer una mayor precisión predictiva. Además, permite evaluar la importancia de cada característica (feature importance), lo cual es valioso para la interpretación de los resultados.
+Limitaciones: Su principal desventaja es que funciona como una "caja negra" (black box), siendo mucho menos interpretable que un modelo lineal. Requiriendo más recursos computacionales y tiempo de entrenamiento.
 
 # Para actualizar tu repositorio local con los cambios realizados en el repositorio remoto de GitHub, debes usar el comando:
 git pull origin main
