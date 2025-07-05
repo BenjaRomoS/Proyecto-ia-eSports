@@ -11,7 +11,7 @@ Fuente: Nuestro proyecto utilizará el dataset "eSports Earnings" obtenido de Ka
 
 Contenido: Este conjunto de datos contiene información histórica sobre las ganancias de jugadores y equipos en diversos torneos de eSports. Incluyendo variables categóricas como Game (videojuego específico), Genre (género del videojuego) y Country (nacionalidad del jugador), así como variables numéricas como TotalUSDPrize (ganancias totales del jugador).
 
-# Modelo(s) Seleccionado(s): 
+# Modelo Seleccionado: 
 Tras analizar el conjunto de datos, decidimos utilizar dos modelos de regresión para abordar el problema, permitiendo una comparación de rendimiento:
 
 Modelo Base: Regresión Lineal.
