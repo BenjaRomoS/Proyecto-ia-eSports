@@ -35,9 +35,6 @@ Coeficiente de Determinación (R2): Para medir qué proporción de la varianza e
 
 Documentación: Todo el proceso, código y resultados serán documentados en el repositorio de GitHub, principalmente en el archivo README.md y en los comentarios del notebook.
 
-
-
-
 # Justificación del Modelo
 La elección de los modelos responde a una estrategia por etapas para resolver el problema de predicción de ganancias.
 
