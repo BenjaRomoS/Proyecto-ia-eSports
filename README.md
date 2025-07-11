@@ -73,6 +73,19 @@ El modelo tiende a subestimar las ganancias de los jugadores con mayores ingreso
 
 Para analizar con mayor detalle el rendimiento del modelo en los casos más comunes, se generó un segundo gráfico que filtra el 5% de los jugadores con mayores ganancias (superiores a $1,110,703.71 USD). En esta visualización "ampliada", se aprecia con mayor claridad la tendencia positiva y la concentración de los datos. Aun así, se mantiene una dispersión considerable alrededor de la línea de predicción perfecta, lo que confirma que, incluso para el 95% de los jugadores, predecir las ganancias exactas sigue siendo una tarea compleja.
 
+#Importancia de las Características 
+El análisis de las características más influyentes del modelo Random Forest  es, quizás, el resultado más revelador del proyecto:
+El Videojuego es Clave: La característica más importante, y con una diferencia abrumadora, es si el juego es Dota 2. Esto sugiere que competir en este juego es el predictor más fuerte de altas ganancias entre todos los factores analizados. Otros juegos como Counter-Strike: Global Offensive y Fortnite también aparecen en el top, pero con una importancia mucho menor.
+La Nacionalidad Importa: Múltiples variables CountryCode (código de país) se posicionan en el top 20, como fi (Finlandia), fr (Francia), au (Australia) y dk (Dinamarca). Esto indica que la nacionalidad de un jugador es un factor muy relevante para predecir sus ingresos.
+El Género es Menos Relevante que el Juego Específico: Es notable que la única característica de género en la lista, Genre_Strategy, tenga una importancia relativa muy baja. Esto implica que es mucho más determinante el juego específico en el que compite un jugador que el género general al que este pertenece.
+
+#Conclusiones
+Tras el análisis de los resultados, se pueden extraer las siguientes conclusiones clave en respuesta a la problemática planteada:
+El principal factor para predecir las ganancias de un jugador profesional de eSports es el videojuego específico en el que compite. Nuestro modelo identificó a Dota 2 como el factor más determinante y con mayor peso, superando a cualquier otra característica. Esto sugiere que el ecosistema competitivo de ciertos juegos ofrece premios significativamente más altos.
+La nacionalidad del jugador es el segundo factor más influyente. El país de origen de un competidor tiene un impacto considerable en sus posibles ganancias, lo que podría estar relacionado con la popularidad de los eSports en dichas regiones, la infraestructura de apoyo o la concentración de equipos de alto nivel.
+El modelo predictivo es útil pero tiene limitaciones claras. Con un R² de 0.65, el modelo logra explicar una parte considerable de las ganancias, validando la relevancia de las características seleccionadas. Sin embargo, el alto valor de RMSE y la dificultad para predecir las ganancias de los jugadores de élite (outliers) demuestran que la predicción financiera en un campo tan volátil es inherentemente compleja, una variabilidad que persiste incluso al examinar el grueso de los jugadores con ganancias no extremas.
+En pocas palabras, el proyecto desarrollado logró identificar con éxito los factores más determinantes del éxito financiero en los eSports. Para organizaciones y patrocinadores, este análisis refuerza la idea de que el enfoque debe estar en juegos específicos con grandes premios, mientras que para los jugadores, subraya cómo el juego elegido puede ser más decisivo para su carrera que cualquier otro factor. 
+
 
 
 
